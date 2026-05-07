@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -18,6 +19,13 @@ export default function HomePage() {
               Northumbria University, United Kingdom
             </p>
           </div>
+<Image
+  src="/images/profile.jpg"
+  alt="Honglei Li"
+  width={420}
+  height={520}
+  className="rounded-3xl object-cover shadow-lg"
+/>
 
           <p className="max-w-3xl text-lg leading-8 text-gray-700">
             I study how data, platforms, and algorithms shape trust,
